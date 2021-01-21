@@ -1,0 +1,2 @@
+# comp-pg
+Competitive Programming 
