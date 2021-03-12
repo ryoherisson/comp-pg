@@ -27,9 +27,10 @@ int main() {
     }
 
     int res = INF;
-    int mina = INF, minb = INF;
     rep (i, N) {
-
+        rep(j, N) {
+            res = min(res, i == j ? a[i] + b[i] : max(a[i], b[j]));
+        }
     }
 
     cout << res << endl;
